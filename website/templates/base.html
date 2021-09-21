@@ -1,0 +1,55 @@
+<!DOCTYPE hmtl>
+</html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Trajetória Pessoal</title>
+        <link rel="stylesheet" href="..\static\css\style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+      
+    </head>
+    <body>
+    <section class="sub-header">
+        <nav>
+            <a href="/"><i class="fas fa-home homeicon"></i></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/trajetoriapessoal">TRAJETÓRIA PESSOAL</a></li>
+                    <li><a href="/trajetoriaprofissional">TRAJETÓRIA PROFISSIONAL</a></li>
+                    <li><a href="/contato">CONTATO</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <div id="title">
+            {% block title %}
+        
+            {% endblock %}
+        </div>
+
+    </section>
+
+    <div id="content">
+        {% block content %}
+        
+        {% endblock %}
+    </div>
+
+    <!-- --- Footer ----->
+
+    <section class="Footer">
+        <p>
+            Me siga nas redes sociais!
+        </p>
+        <div class="icons">
+            <a href="https://twitter.com/PedroKohler3"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/pedrohkohler/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/pedro-henrique-kohler/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </section>
+    </body>
+</html>
