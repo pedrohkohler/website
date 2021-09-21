@@ -139,23 +139,23 @@ nav img{
     margin-top: 90px;
     font-size: 50px;
 }
-.pessoal-conteudo{
+.personal-content{
     width: 80%;
     margin: auto;
     padding: 60px 0;
 }
-.pessoal{
+.personal{
     flex-basis: 65%;
 }
-.pessoal img{
+.personal img{
     width: 50%;
 }
-.pessoal h2{
+.personal h2{
     color: #222;
     font-weight: 600;
     margin: 30px 0;
 }
-.pessoal p{
+.personal p{
     color: rgb(66, 64, 64);
     padding: 0;    
 }
@@ -169,23 +169,23 @@ nav img{
 .centerblock{
     text-align: center;
 }
-.profissional-conteudo{
+.professional-content{
     width: 80%;
     margin: auto;
     padding: 60px 0;
 }
-.profissional{
+.professional{
     flex-basis: 65%;     
 }
-.profissional img{
+.professional img{
     width: 30%;
 }
-.profissional h2{
+.professional h2{
     color: #222;
     font-weight: 600;
     margin: 30px 0;
 }
-.profissional p{
+.professional p{
     color: rgb(66, 64, 64);
     padding: 0;    
 }
@@ -200,21 +200,21 @@ nav img{
 .location iframe{
     width: 100%;    
 }
-.contato{
+.contact{
     width: 80%;
     margin: auto;
 
 }
-.contato-col{
+.contact-col{
     flex-basis: 48%;
     margin-bottom: 30px;
 }
-.contato-col div{
+.contact-col div{
     display: flex;
     align-items: center;
     margin-bottom: 40px;
 }
-.contato-col div .fas{
+.contact-col div .fas{
     font-size: 28px;
     color: #f44336;
     margin: 10px;
